@@ -1,0 +1,8 @@
+data/
+__pycache__/
+*.db
+*.db-journal
+server_snapshots/
+snapshots/
+tuning.jsonl
+.DS_Store

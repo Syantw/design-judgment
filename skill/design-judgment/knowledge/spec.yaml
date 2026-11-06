@@ -1,0 +1,25 @@
+# 示例设计规范：品牌「示例品牌」界面规范（小而真实，可直接替换成你们自己的）
+brand: 示例品牌
+colors:
+  primary: "#2563EB"        # 主色，只用在主按钮和关键链接
+  text: "#111827"           # 正文
+  secondary_text: "#6B7280" # 次要文字
+  background: "#FFFFFF"
+  surface: "#F3F4F6"        # 卡片底色
+  danger: "#DC2626"         # 只用来标异常金额
+  border: "#E5E7EB"
+font_sizes:
+  title: 20
+  body: 14
+  caption: 12
+spacing: [4, 8, 16, 24, 32]  # 间距只用这几个数
+radius: 8                    # 圆角统一 8px
+components:
+  - Button: 主按钮（主色实底白字）、次按钮（白底描边）、文字按钮
+  - Card: 白底、圆角 8px、边框 1px #E5E7EB
+  - Input: 高 40px、圆角 8px、聚焦时边框变主色
+  - Nav: 顶部导航，高 56px
+rules:
+  - 主按钮每屏最多一个
+  - 金额右对齐，异常金额用 danger 色
+  - 卡片之间间距 16px
